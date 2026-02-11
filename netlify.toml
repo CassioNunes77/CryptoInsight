@@ -1,0 +1,5 @@
+# CryptoInsight - Deploy Netlify (zero-config para Next.js)
+# Netlify detecta Next.js automaticamente e configura o build via OpenNext
+
+[build]
+  command = "npm run build"
