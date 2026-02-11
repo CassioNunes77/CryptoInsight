@@ -1,8 +1,10 @@
 # CryptoInsight - Deploy Netlify
 # Plugin Next.js garante build e rotas corretas
+# publish = ".next" evita conflito com "publish = base" definido na UI
 
 [build]
   command = "npm run build"
+  publish = ".next"
   [build.environment]
     NODE_VERSION = "20"
 
